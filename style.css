@@ -1,0 +1,23 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+nav{
+	font-size: 18px;
+	background: lightgray;
+	width: 200px;
+}
+nav a{
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+nav a.active{
+	background-color: green;
+	color:white;
+}
+nav li:hover{
+	box-shadow:5px 5px 10px 5px darkgray;
+	border-bottom: 4px solid red;
+}
